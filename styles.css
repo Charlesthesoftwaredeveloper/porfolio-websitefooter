@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  line-height: 2.3;
+}
+
+footer {
+  background-color: #0a1b3e;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 20px;
+}
+.footer-section1{
+  flex: 2;
+  /* width: 14rem; */
+  margin: 10px;
+  align-self: flex-start;
+  position: relative;
+  left: -2rem;
+}
+
+.footer-logo {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.footer-section h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 30px;
+  height: 2px;
+  background-color: orangered;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #ff9c00;
+  text-decoration-line: underline;
+}
+
+.footer-section p {
+  margin: 10px 0;
+}
+
+.footer-social a {
+  display: inline-block;
+  color: #fff;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color: #ff9c00;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  /* border-top: 1px solid #fff; */
+  padding-top: 20px;
+  background-color: #000124;
+  height: 100px;
+  
+}
+
+.footer-bottom p {
+  margin: 10px 0;
+}
+
+.footer-bottom a {
+  /* color: #ff9c00;
+  text-decoration: none;
+  transition: color 0.3s;
+  position: relative; */
+  color: #fff;
+  position: relative;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  color: #ff9c00;
+  text-decoration: underline;
+  transition: color 0.3s;
+  position: relative;
+  /* color: #fff;
+  position: relative; */
+}
+.phone-blue {
+  position: fixed;
+  left: 170px;
+  bottom: 40px ;
+  border-radius: 50%;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 40px ;
+  left: 80px;
+
+
+}
+.flex-list {
+  display: flex;
+}
+
+.icon{
+  color: orangered;
+  padding-right: 5px;
+}
+.ri-facebook-circle-line{
+  color:orangered;
+  background-color: #fff;
+  height: 60px;
+  width:30px;
+ 
+}
+.circle-line{
+  background-color: #fff;
+  border-radius: 50%;
+  color:orangered;
+
+}
+.mov{
+  position: relative;
+  right: 14px;
+
+}
+.icons{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: fixed;
+  right: 1rem;
+  top: 12rem;
+
+ 
+}
+.bgwhite{
+  background-color: #fff;
+  border-radius: 15px;
+}
+.bgred{ 
+  background-color: red;
+  border-radius: 15px;
+}
+.footer-socialinner{
+  display: flex;
+  flex-direction: row;
+  gap: 1%;
+
+}
